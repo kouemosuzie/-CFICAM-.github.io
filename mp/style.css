@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif ;
+    scroll-behavior: smooth;
+}  
+.P{
+    font-weight: 300;
+    color:#1111;
+}
+header{
+  position: fixed;  
+  top: 0px;
+  left: 0px;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0,5s;
+}
+.logo{
+    color:black;
+    font-weight: bold;
+    font-size: 3em;
+    text-decoration: none;
+    position: relative;
+}
+.logo span{
+    color: red;
+    font-size: 2em;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight:700 ;
+   
+}
+.btn-commande{
+    padding: 20px;
+    background: pink;
+   margin-top: -10px;
+   text-transform: uppercase;
+}
+.btn-commande:hover{
+    background:palevioletred ;
+    transition: ease-out;
+} 
+header .navbar li a:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url(./photo/CFI/téléchargement\ \(1\).jpeg); 
+   background-size: cover;
+   rotate: (20deg);
+   transform: (-50deg);
+}
+.banniere .contenu{
+  max-width:75%;  
+  text-align: center;
+}
+.banniere .contenu h2{
+    color: white;
+    font-size: 3em;
+    text-transform: capitalize;
+
+}
+.contenu p:nth-child(2){
+    color:aliceblue ;
+    font-size:  1,60em;
+}
+.btn1{
+    font-size: 1,5em;
+    color: black;
+    background: orange;
+    padding:10px 20px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0,5s;
+    margin-left:2px;
+    position: relative;
+}
+.btn2{
+    font-size: 1,5em;
+    color: black;
+    background: grey;
+    padding:10px 20px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0,5s;
+    margin-left:2px;
+    
+}
+.btn:hover{
+  letter-spacing: 4px;
+    
+}
+section{
+  padding: 100px;   
+}
+.row{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.row .colse{
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.row .colse h2{
+    margin-bottom: 20px  ;
+     
+}
+.titre-text{
+    color: black;
+    font-size: 1,7em;
+    font-weight: 300px;
+ text-transform: capitalize;
+}
+.titre-text span{
+    color: red;
+    font-size: 2em;
+    font-weight: 700 px;
+}
+.note{
+    color: black;
+    font-size: 3em;
+    font-weight: 500 px;
+}
+
+.row .colse img{
+    height: 500px;
+    width:600px ;
+    position: relative;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+.marchandise{
+    margin-top:-100px;
+}
+.marchandise.contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+.marchandise .contenu .box{
+    border: 10px solid #fff;
+    box-shadow: 20px 15px 35px rgba(1,1,1,0.8);
+}
+.marchandise.contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.marchandise.contenu .box .imbox img{
+    position:relative;
+    top:0 ;
+    left :0;
+    width:100%;
+    height: 300px;
+    object-fit:cover;
+}
+.marchandise.contenu .box .text{
+ text-align: center; 
+ font-weight: 300px;  
+ color: #1111;
+}
+.marchandise .contenu .box .text h3{
+   font-weight: 400; 
+}
+.agence{
+   margin-top: -100px; 
+   background-image: url(./photo/images\ \(2\).jpeg);
+   background-size: cover ;
+  box-shadow: 2px 2px 12px  rgba(O, 0, 0, 0,8) ;
+  width: 100%;
+ background-position: unset; 
+  
+ 
+}
+.agence .text{
+    font-size: 1,99em;
+
+}
+
+.Expert{
+    margin-top:-100px;
+}
+.Expert .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+.Expert .contenu .box{
+    border: 10px solid #fff;
+    box-shadow: 20px 15px 35px rgba(1,1,1,0.8);
+}
+.Expert .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.Expert .contenu .box .imbox img{
+    position:relative;
+    top:0 ;
+    left :0;
+    width:100%;
+    height: 300px;
+    object-fit:cover;
+}
+.Expert .contenu .box .text{
+ text-align: center; 
+ font-weight: 300px;  
+ color:black;
+}
+.Expert .contenu .box .text h3{
+   font-weight: 400; 
+   color: black;
+}
+.temoignage{
+    background-image: url(./photo/images\ \(2\).jpeg);
+    background-size: cover;
+}
+.temoignage .contenu{
+   display: flex;  
+   margin-top: 40px;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+.temoignage .contenu .box{
+    width: 140px;
+    margin: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;   
+}
+.temoignage .contenu .box .imbox{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+   position:relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.temoignage .contenu .box .imbox img{
+    position: relative ;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.temoignage .contenu .box .text{
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+.temoignage .contenu .box .text h3{
+    color: orangered;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+.blanc .titre-text{
+    color: #fff;
+}
+.blanc .titre-text,
+.blanc p{
+    color: #fff;
+} 
+
+.contact{
+    background-image: url(./photo/CFI/images.jpeg);
+    background-size: cover ;
+   box-shadow: 2px 2px 12px  rgba(O, 0, 0, 0,8) ;
+   width: 100%;
+  background-position: unset;  
+  
+}
+.contactform{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(O, 0, 0, 0,8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+        align-items: center;
+        margin-left: 38%;
+}
+.contactform .inputboite{
+    position: relative;
+    width:100% ;
+    margin-bottom: 20px ;
+}
+.contactform h3{
+    color: black;
+    font-size: 1,5em;
+    margin-top: 20px;
+}
+.contactform .inputboite input,
+.contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactform .inputboite input[type="submit"]{
+  font-size: 1em;
+  font-weight: 700; 
+  color: #fff; 
+  background: orange;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration:none;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+  transition: 0,5s;
+  max-width: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.contact .titre-text span{
+    color: red;
+ font-size:2,5em;   
+}
+header .sticky{
+    background: #fff;
+    padding: 10px 10px; 
+    box-shadow: 0px 5px 20px rgba(O, 0, 0,0,8) ;
+}
+header .sticky .logo{
+    color: #111;
+}
+header .sticky .navbar li{
+    color: #111;
+}
+header .sticky li a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+@media(max-width: 991px) {
+    header,header.sticky{
+        padding: 10px 20px;
+    } 
+    header .navbar li{
+        margin-left: 0px ;
+    }
+    header .navbar li a{
+      text-decoration: none;
+      color: #111;
+      font-size: 1,6em;
+      font-weight:300 ;
+    }
+    .navbar{
+        display: none;
+    }
+    section{
+        padding: 20px;
+    }
+    header .navbar .active{ 
+        width: 100%;
+        height: calc(100 -68px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #fff;
+       align-items: center; 
+    }
+    .menutoggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url(./photo/CFI/images.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .menutoggle .active{
+        background-image: url(./photo/CFI/téléchargement\ \(2\).jpeg);
+        background-size: 15px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header .sticky .menutoggle{
+        filter: invert();
+    }
+    .banniere .contenu h2{
+      font-size: 2em;  
+    }
+    .row .colse img{
+        margin-left: -5%;
+    }
+    .contenu p:nth-child(2){
+        font-size: 1,2em;
+        }
+    .Expert{
+        margin-top: 0px;
+    }
+    .marchandise{
+        margin-top: 0px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .temoignage h2{
+        font-size: 2em;
+        text-align: center;
+    }
+    .temoignage p{
+    text-align: center;
+    }
+    .contactform{
+        margin-left: 17px;
+    }
+    
+    .row .colse {
+        position: relative;
+        width: 100%;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .row{
+        flex-direction:column;
+    }
+    }
